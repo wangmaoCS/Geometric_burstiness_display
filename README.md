@@ -34,7 +34,7 @@ The **Pittsburgh250k dataset** (http://www.ok.ctrl.titech.ac.jp/~torii/project/r
        day = {20--25},
        venue = {Miami, Florida, USA},
        pages = {9--16},
-        ISBN = {978-1-4244-3994-2},
+       ISBN = {978-1-4244-3994-2},
     }
 
 ### OpenMPI in AKM
@@ -43,3 +43,4 @@ The **Pittsburgh250k dataset** (http://www.ok.ctrl.titech.ac.jp/~torii/project/r
  ## Result
    It seems that the gemotric parameter b represent 2b, we use the [a b/2; b/2 c] to draw ellipses
    The match result is illustarted as follow.
+   ![image](https://github.com/wangmaoCS/Geometric_burstiness_display/Pitts_query1_match1.png)
