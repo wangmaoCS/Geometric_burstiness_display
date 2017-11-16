@@ -23,7 +23,19 @@ The **Pittsburgh250k dataset** (http://www.ok.ctrl.titech.ac.jp/~torii/project/r
 
 ## Attention
 ### hessian affine detector
-   The local feature extracted from https://github.com/perdoch/hesaff is different from the result extracted by the code http://cmp.felk.cvut.cz/~perdom1/code/haff_cvpr09. It is better to use the former version. 
+   The local feature extracted from https://github.com/perdoch/hesaff is different from the result extracted by the code http://cmp.felk.cvut.cz/~perdom1/code/haff_cvpr09. It is better to use the former version. The hessian affine detector is from the following paper
+   
+   @InProceedings{Perdoch-CVPR-2009,
+       author = {Michal Per{\v d}och, Ond{\v r}ej Chum, Ji{\v r}{\' i} Matas},
+       title = {Efficient Representation of Local Geometry for Large Scale Object Retrieval},
+       booktitle = {IEEE Computer Society Conference on Computer Vision and Pattern Recognition},
+       year = {2009},
+       month = {June},
+       day = {20--25},
+       venue = {Miami, Florida, USA},
+       pages = {9--16},
+        ISBN = {978-1-4244-3994-2},
+    }
 
 ### OpenMPI in AKM
    The default OpenMPI can result in error for the final python running of AKM, you should compile the OpenMPI with an special option.
