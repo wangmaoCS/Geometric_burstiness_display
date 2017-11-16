@@ -38,7 +38,7 @@ The **Pittsburgh250k dataset** (http://www.ok.ctrl.titech.ac.jp/~torii/project/r
     }
 
 ### OpenMPI in AKM
-   The default OpenMPI can result in error for the final python running of AKM, you should compile the OpenMPI with an special option.
+   The default OpenMPI can result in error for the final python running of AKM, you should compile the OpenMPI with an special option (I cannot remember the detail).
    
  ## Result
    It seems that the geometric parameter b represent 2b, we use the [a b/2; b/2 c] to draw ellipses.
