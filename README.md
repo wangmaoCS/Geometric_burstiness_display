@@ -22,7 +22,11 @@ The **Pittsburgh250k dataset** (http://www.ok.ctrl.titech.ac.jp/~torii/project/r
     }
 
 ## Attention
-### hessian affine featture
-
+### hessian affine detector
+    The local feature extracted from https://github.com/perdoch/hesaff is different from the result extracted by the code http://cmp.felk.cvut.cz/~perdom1/code/haff_cvpr09. It is better to use the former version. 
 
 ### OpenMPI in AKM
+   The default OpenMPI can result in error for the final python running of AKM, you should compile the OpenMPI with an special option.
+   
+ ## Result
+   The match result is illustarted as follow.
