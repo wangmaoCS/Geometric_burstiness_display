@@ -13,6 +13,7 @@ We use the public released in https://github.com/tsattler/geometric_burstiness, 
 
 ## Data
 The **Pittsburgh250k dataset** (http://www.ok.ctrl.titech.ac.jp/~torii/project/repttile/) is employed for experiments, and we train 200k codebook with the AKM code (https://github.com/philbinj/fastcluster) by randomly selecting 20k images and training for 30 iterations. The recall@1 is about 50%, which is far below the result  reported in 
+
     @Inproceedings{Arandjelovic14a,
         author       = "Arandjelovi\'c, R. and Zisserman, A.",
         title        = "{DisLocation}: {Scalable} descriptor distinctiveness for location recognition",
