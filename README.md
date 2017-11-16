@@ -41,6 +41,6 @@ The **Pittsburgh250k dataset** (http://www.ok.ctrl.titech.ac.jp/~torii/project/r
    The default OpenMPI can result in error for the final python running of AKM, you should compile the OpenMPI with an special option.
    
  ## Result
-   It seems that the gemotric parameter b represent 2b, we use the [a b/2; b/2 c] to draw ellipses
+   It seems that the gemotric parameter b represent 2b, we use the [a b/2; b/2 c] to draw ellipses.
    The match result is illustarted as follow.
-   ![image](https://github.com/wangmaoCS/Geometric_burstiness_display/Pitts_query1_match1.png)
+   ![Pitts_match](https://github.com/wangmaoCS/Geometric_burstiness_display/blob/master/Pitts_query1_match1.png)
