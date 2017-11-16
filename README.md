@@ -21,7 +21,7 @@ The **Pittsburgh250k dataset** (http://www.ok.ctrl.titech.ac.jp/~torii/project/r
         year         = "2014",
     }
 
-## Attention
+## Causions
 ### hessian affine detector
    The local feature extracted from https://github.com/perdoch/hesaff is different from the result extracted by the code http://cmp.felk.cvut.cz/~perdom1/code/haff_cvpr09. It is better to use the former version. The hessian affine detector is from the following paper
    
