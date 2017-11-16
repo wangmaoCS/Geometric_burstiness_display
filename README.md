@@ -25,7 +25,7 @@ The **Pittsburgh250k dataset** (http://www.ok.ctrl.titech.ac.jp/~torii/project/r
 ### hessian affine detector
    The local feature extracted from https://github.com/perdoch/hesaff is different from the result extracted by the code http://cmp.felk.cvut.cz/~perdom1/code/haff_cvpr09. It is better to use the former version. The hessian affine detector is from the following paper
    
-   @InProceedings{Perdoch-CVPR-2009,
+    @InProceedings{Perdoch-CVPR-2009,
        author = {Michal Per{\v d}och, Ond{\v r}ej Chum, Ji{\v r}{\' i} Matas},
        title = {Efficient Representation of Local Geometry for Large Scale Object Retrieval},
        booktitle = {IEEE Computer Society Conference on Computer Vision and Pattern Recognition},
